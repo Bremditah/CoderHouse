@@ -19,7 +19,7 @@ font-family: 'Yellowtail', cursive;*/
 .logo{
     display: flex;
     justify-content: center;
-    background-color: rgba(255, 166, 0, 0.534);
+    background-color: #ff9100c7
 
     }
 
@@ -196,7 +196,7 @@ footer{
     font-family: "Gloock";
     color: rgb(49, 49, 49);
     text-decoration: underline;
-    text-shadow: 2px 2px 5px rgba(255, 102, 0, 0.945);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.945);
     text-align: center;
 }
 .a1{
@@ -228,7 +228,8 @@ footer{
     padding: 20px 20px;
     font-size: 4rem;
     font-family: 'Franklin Gothic';
-    color: rgba(255, 0, 0, 0.699);
+    color: rgba(10, 10, 10, 0.699);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.678);
 
     
 }
