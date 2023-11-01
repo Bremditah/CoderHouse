@@ -1,0 +1,311 @@
+/* font-family: 'Fuggles', cursive;
+font-family: 'Gloock', serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Yellowtail', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Gloock&family=Major+Mono+Display&family=Yellowtail&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gloock';
+}
+
+
+
+/**Header**/
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 166, 0, 0.534);
+
+    }
+
+    @media (min-width: 480px) {
+        header{
+            flex-direction: column;
+    }
+}
+
+
+   
+
+body{
+    background-color: aliceblue;
+}
+
+img{
+max-width: 100%;
+}
+
+
+/* barra de navegacion*/
+.navbar{
+    padding: 10px;
+   font-size: 2rem;
+   
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.navbar a{
+    text-decoration:  none;
+    color: black;
+    font-style: bold;
+    font-size: 30px;
+    text-shadow: 3px 3px 7px rgba(0, 102, 255, 0.911);
+    
+}
+
+.navbar a:hover {
+    color: rgb(245, 6, 6);
+}
+
+.navbar a::after {
+    content: " | ";
+}
+
+
+/* Main*/
+
+.frentebox{
+    height: 91vh;
+    background-image: url(../img/frenteCuyo.jpg) ;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.text-pri{
+    background-color: rgba(255, 216, 157, 0.432);
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    border-radius: 10px ;
+    padding: 16px;
+    font-size: 1rem;
+    
+}
+
+.video{
+ display: flex;
+ margin: 30px ; 
+ flex-wrap: wrap;
+ gap: 30px;
+ justify-content: center;
+}
+
+
+.ubi {
+    padding: 20px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.945);
+    text-align: center;
+    
+}
+
+.map-wrapper {
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+      
+}
+
+@media (min-width: 480px){
+  
+    .redes-sociales{
+        width: 100%;
+        padding: 0 5px 0;
+        margin: 0;}
+    }
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes-sociales{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    
+}
+.iconos{
+    width: 250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center; 
+    gap: 2rem;
+}
+
+.iconos a{
+    color: #f0ffff;
+ font-size: 30px;
+}     
+
+.iconos a:hover{
+    color: #d2fb7f;
+}
+.trabajar{
+    display: flex;
+    
+    text-align: right;
+    color: white;
+    gap: 1rem;
+}
+
+
+/***Pages***/
+
+
+/* autos*/
+
+
+
+.venta-autos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    
+}
+
+.autos{
+    padding: 10px 10px;
+    font-size: 50px;
+    font-family: "Gloock";
+    color: rgb(49, 49, 49);
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgba(255, 102, 0, 0.945);
+    text-align: center;
+}
+.a1{
+    border: 2px solid black;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.a1 img{
+    width: 100%;
+   }
+    
+.cajatexto{
+    padding: 10px 10px;
+    
+}
+
+@media (min-width: 480px){
+.venta-autos{
+    font-size: 1rem;
+}
+}
+/*Clientes*/
+
+
+.clientest{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic';
+    color: rgba(255, 0, 0, 0.699);
+
+    
+}
+
+
+.clientesV{
+    padding: 20px 20px;
+    margin: 50px;
+ align-items: center;
+}
+
+
+
+
+/* Contacto*/
+
+
+.texForm{
+    font-family: 'Major Mono Display' ;
+    font-size: 1.5rem;
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgb(255, 102, 0);;
+
+    
+}
+
+
+.formulario{
+display: flex;
+flex-direction: row;
+gap: 30rem;
+margin: 30px;
+padding: 30px;
+}
+
+.formBox{
+border: 3px solid rgb(114, 114, 114);
+border-radius: 20px;
+width: 500px;
+min-height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0 0 20px;
+margin: 0px;
+}
+
+.dentro{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input, textarea{
+    background-color: rgba(245, 245, 220, 0.356);
+}
+.btn{
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.masContacto{
+    background-color: rgba(255, 255, 255, 0.658);
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 10px;
+    font-size: 1rem;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+    
