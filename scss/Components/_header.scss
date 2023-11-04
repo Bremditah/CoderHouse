@@ -1,0 +1,12 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: $color-naranja;
+
+    } 
+    
+    @media (min-width: 480px) {
+        header{
+            flex-direction: column;
+    }
+}

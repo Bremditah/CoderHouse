@@ -1,0 +1,48 @@
+
+.frentebox{
+    height: 91vh;
+    background-image: url(../img/frenteCuyo.jpg) ;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.text-pri{
+    background-color: rgba(253, 253, 253, 0.637);
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    border-radius: 10px ;
+    padding: 16px;
+    font-size: 1.5rem;
+    
+}
+
+.video{
+ display: flex;
+ margin: 30px ; 
+ flex-wrap: wrap;
+ gap: 30px;
+ justify-content: center;
+}
+
+
+.ubi {
+    padding: 20px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.945);
+    text-align: center;
+    
+}
+
+.map-wrapper {
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+      
+}
