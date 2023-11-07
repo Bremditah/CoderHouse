@@ -1,38 +1,40 @@
 header{
 
-.logo{
-    display: flex;
-    justify-content: center;
-    background-color: $color-naranja;
-
-    } 
-    .navbar{
-      padding: 10px;
-     font-size: 2rem;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-  a{
-      text-decoration:  none;
-      color: black;
-      font-weight: bold;
-      font-size: 30px;
-      text-shadow: 3px 3px 7px rgba(0, 102, 255, 0.911);
+    .logo{
+        display: flex;
+        justify-content: center;
+        background-color: $color-naranja;
     
-      &:hover {
-      color: rgb(245, 6, 6);
-      
-  }  
-  }
-  }
- 
-  /*no se como anidar esta parte*/
-  .navbar a::after {
-      content: " | ";
-  }
-  
-   @include mq-sm{
-    flex-direction: row;
-    justify-content: space-between;
-   }
+        } 
+        .navbar{
+          padding: 10px;
+         font-size: 2rem;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+      a{
+          text-decoration:  none;
+          color: black;
+          font-weight: bold;
+          font-size: 30px;
+          text-shadow: 3px 3px 7px rgba(0, 102, 255, 0.911);
+        
+          &:hover {
+          color: rgb(245, 6, 6);
+          
+      }  
+      }
+      }
+     
+      /*no se como anidar esta parte*/
+      .navbar a::after {
+          content: " | ";
+      }
+    }
+@media (min-width: 480px) {
+    header{
+        flex-direction: column;
 }
+}
+
+ 

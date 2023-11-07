@@ -18,8 +18,3 @@ $color-negro:#000000;
 
 $ff-gloock: 'Gloock';
 
-@mixin mq-sm{
-    @media (min-width: 480px ){
-    @content;
-    }
-}
