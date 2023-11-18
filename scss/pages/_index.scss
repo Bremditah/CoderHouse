@@ -50,12 +50,8 @@
 .wrap{
     width:500px;
     height:300px;
-    display: flex;
-     justify-content: center;
   }
   .container {
-    display: flex;
-    justify-content: center;
     position: absolute;
     height: 50px;
     width: auto;
@@ -74,25 +70,20 @@
     height: 50px;
     width: auto;
     font-size: 50px;
-    font-family: "Gloock";
+    font-family: "SF Pro", Helvetica, Arial, Sans-serif;
     font-weight: bold;
     backface-visibility: hidden;
   }
   .side1 {
-    color: rgb(5, 5, 5);
-    text-shadow: 2px 2px 5px rgba(255, 115, 0, 0.945);
     transform: translateZ(25px);
   }
   .side3 {
-    text-shadow: 2px 2px 5px rgba(255, 115, 0, 0.945);
     transform: rotateX(180deg) translateZ(25px);
   }
   .side4 {
-    text-shadow: 2px 2px 5px rgba(255, 115, 0, 0.945);
     transform: rotateX(90deg) translateZ(25px);
   }
   .side2 {
-    text-shadow: 2px 2px 5px rgba(255, 115, 0, 0.945);
     transform: rotateX(-90deg) translateZ(25px);
   }
   
@@ -116,5 +107,12 @@
     100% {
       transform: rotateX(360deg) rotateY(0deg);
     }
+  }
+  
+  a {
+    font-family: helvetica;
+    color: #428bca;
+    text-align: center;
+    display: block;
   }
   

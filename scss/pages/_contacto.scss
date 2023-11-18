@@ -44,12 +44,14 @@ textarea {
   border-radius: 10px;
   background-color: #f8e9f6;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
+
 
 .masContacto {
   background-color: $color-blanco;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
   justify-content: center;
   text-align: center;
@@ -62,5 +64,3 @@ textarea {
   overflow: hidden;
   
 }
-
-
