@@ -23,19 +23,16 @@ header{
           color: rgb(245, 6, 6);
           
       }  
-      &::after {
-          content: " | ";
       }
-    }
       }
      
       /*no se como anidar esta parte*/
+      .navbar a::after {
+          content: " | ";
+      }
       
-     
-    }
-@media (min-width: 480px) {
-    header{
+       @include mq-sm{
         flex-direction: row;
-}
-}
-
+        justify-content: space-between;
+       }
+    }
