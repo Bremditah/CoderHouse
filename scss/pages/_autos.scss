@@ -10,8 +10,8 @@
 
 .autos{
   padding: 10px 10px;
-  font-size: 50px;
-  font-family: "Gloock";
+  font-size: 2rem;
+  font-family: "Gloock", sans-serif;
   color: rgb(49, 49, 49);
   text-decoration: underline;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.945);
@@ -19,9 +19,12 @@
 }
 .a1{
   border: 2px solid black;
-  width: 600px;
+  width: 90%; 
+  max-width: 1000px;
   border-radius: 10px;
   overflow: hidden;
+
+	
 
 
 &-img{
